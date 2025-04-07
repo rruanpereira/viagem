@@ -155,3 +155,12 @@ section.love .flex{
     color: #fff;
 }
 
+.love .txt-love h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.love .txt-love p{
+    margin: 20px 0;
+    text-align: justify;
+}
