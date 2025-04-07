@@ -20,6 +20,12 @@ body{
     display: flex;
 }
 
+h2.titulo{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+}
+
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -79,9 +85,73 @@ section.topo-do-site .flex{
 
 .topo-do-site h1{
     color: #fff;
-    font-size: 35px;
+    font-size: 42px;
+    line-height: 40px;
 }
 
 .topo-do-site p{
     color: #fff;
+    margin: 40px 0;
 }
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+/*ESTILO DO CRONOGRAMA*/
+section.programação{
+    padding: 40px 4%;
+}
+
+section.programação .flex{
+    gap: 60px;
+}
+
+.programação .cronograma-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.programação .cronograma-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff69;
+}
+
+.programação .cronograma-box i{
+    font-size: 50px;
+    color:rgb(67, 128, 221) ;
+}
+
+.programação .cronograma-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/*ESTILO DO LOVE*/
+section.love{
+    padding: 40px 4%;
+}
+
+section.love .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.love .txt-love{
+    color: #fff;
+}
+
